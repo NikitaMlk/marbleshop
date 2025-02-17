@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
 import products from "../data/products";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
 import Description from "../components/DescriptionComponent";  // Import Description
 
 const ITEMS_PER_PAGE = 12;
